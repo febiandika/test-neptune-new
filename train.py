@@ -13,7 +13,7 @@ PARAMS = {'boosting_type': 'gbdt',
           'objective': 'multiclass',
           'num_class': 3,
           'num_leaves': 15, # previously 8
-          'learning_rate': 0.01,
+          'learning_rate': 0.001,
           'feature_fraction': 0.85, #previous 0.9
           'seed': 1234
           }
