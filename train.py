@@ -12,9 +12,9 @@ from sklearn.model_selection import train_test_split
 PARAMS = {'boosting_type': 'gbdt',
           'objective': 'multiclass',
           'num_class': 3,
-          'num_leaves': 8, # previously 8
-          'learning_rate': 0.01,
-          'feature_fraction': 0.9, #previous 0.9
+          'num_leaves': 15, # previously 8
+          'learning_rate': 0.001,
+          'feature_fraction': 0.85, #previous 0.9
           'seed': 1234
           }
 NUM_BOOSTING_ROUNDS = 10
